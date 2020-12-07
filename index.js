@@ -41,7 +41,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Please choose a license:',
-        choices: ['Apache License 2.0', 'GNU General Public License v3.0', 'MIT License', 'None']
+        choices: ['Apache-2.0', 'GPLv3', 'MIT', 'BSD-2-Clause', 'BSE-3-Clause', 'Boost-1.0', 'CC0-1.0', 'EPL-1.0', 'AGPLv3', 'MPL-2.0', 'GPLv2', 'Unlicense']
     },
     {
         type: 'input',
@@ -68,6 +68,26 @@ async function init() {
     console.log('Welcome');
     try {
         const answers = await inquirer.prompt(questions);
+
+        // if (answers.license === 'Apache 2.0') {
+        //     answers.license = 'Apache%202.0';
+        // } else if (answers.license === 'BSD 2-Clause') {
+        //     answers.license = 'BSD%202--Clause';
+        // } else if (answers.license === 'BSD 3-Clause') {
+        //     answers.license = 'BSD%203--Clause'
+        // } else if (answers.license === 'Boost 1.0') {
+        //     answers.license = 'Boost%201.0';
+        // } else if (answers.license === 'CC0 1.0') {
+        //     answers.license = 'CC0%201.0';
+        // } else if (answers.license === 'EPL 1.0') {
+        //     answers.license = 'EPL%201.0';
+        // } else if (answers.license === 'AGPL v3') {
+        //     answers.license = 'AGPL%20v3';
+        // } else if (answers.license === 'MPL 2.0') {
+        //     answers.license = 'MPL%202.0';
+        // } else if (answers.license === 'GPL v2') {
+        //     answers.license = 'GPL%20v2';
+        // }
 
         // const html = generateHTML(answers);
         const readme = markdown(answers);
