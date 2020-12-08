@@ -77,7 +77,7 @@ async function init() {
         const answers = await inquirer.prompt(questions);
         const readme = markdown(answers);
 
-        writeToFile('READMESample.md', readme);
+        writeToFile('READMEsample.md', readme);
     }   catch (err) {
         console.log(err);
     }
