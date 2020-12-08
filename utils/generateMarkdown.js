@@ -1,7 +1,6 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
   return `
-
   # ${data.title}
 
   ${badge(data.license)}
@@ -23,10 +22,6 @@ function generateMarkdown(data) {
   ## Usage
   ${data.usage}
 
-  ## License
-  Copyright (C) [${data.year}] [${data.name}]
-  ${licNotice(data.license)}
-
   ## Contribution
   ${data.contribution}
 
@@ -39,6 +34,10 @@ function generateMarkdown(data) {
 
   In additions, please feel free to contact me if you have any questions about the application.
   My email address is: <${data.email}>
+
+  ## License
+  Copyright (C) [${data.year}] [${data.name}]
+  ${licNotice(data.license)}
   `;
 }
 
