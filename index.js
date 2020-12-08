@@ -6,6 +6,16 @@ const markdown = require('./utils/generateMarkdown');
 const questions = [
     {
         type: 'input',
+        name: 'name',
+        message: 'Enter your full name:',
+    },
+    {
+        type: 'input',
+        name: 'year',
+        message: 'Enter the year when you create thh project:',
+    },
+    {
+        type: 'input',
         name: 'title',
         message: 'Enter your project title:',
     },
@@ -66,7 +76,7 @@ async function init() {
     try {
         const answers = await inquirer.prompt(questions);
         const readme = markdown(answers);
-        
+
         writeToFile('READMESample.md', readme);
     }   catch (err) {
         console.log(err);
