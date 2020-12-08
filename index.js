@@ -12,7 +12,7 @@ const questions = [
     {
         type: 'input',
         name: 'year',
-        message: 'Enter the year when you create thh project:',
+        message: 'Enter the year when you create the project:',
     },
     {
         type: 'input',
