@@ -25,9 +25,11 @@ THEN I am taken to the corresponding section of the README
 
 ## Functionality
 
-Below is the video of demo for functionality:
-![video demo](https://drive.google.com/file/d/1Vk-xM0Gol2k7Z2gWcELnv_3bCdd0K8I0/view)
+![Demo](./assets/sc-9.png)
+Here is the video of demo for functionality: [video demo](https://drive.google.com/file/d/1Vk-xM0Gol2k7Z2gWcELnv_3bCdd0K8I0/view?usp=sharing)
 
 ## URL Sources
 
 Feel free to check the application repository: [https://github.com/ywen26/README-Generator](https://github.com/ywen26/README-Generator)
+
+If you have any questions and ideas about this application, contact me at <yensonyu@gmail.com>

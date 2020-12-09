@@ -41,6 +41,7 @@ function generateMarkdown(data) {
   `;
 }
 
+// Function to add license badge
 function badge(answer) {
     if (answer === 'Apache 2.0') {
       return `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`;
@@ -53,6 +54,7 @@ function badge(answer) {
     } 
 }
 
+// Function to add license notice
 function licNotice(answer) {
   if (answer === 'Apache 2.0') {
     return `
