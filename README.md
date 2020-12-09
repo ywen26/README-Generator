@@ -28,8 +28,16 @@ THEN I am taken to the corresponding section of the README
 ![Demo](./assets/sc-9.png)
 Here is the video of demo for functionality: [video demo](https://drive.google.com/file/d/1Vk-xM0Gol2k7Z2gWcELnv_3bCdd0K8I0/view?usp=sharing)
 
+## Installation
+
+1. Open integrated terminal in VSCode;
+2. input 'npm i' to install inquirer package;
+3. After installation completed, input 'node index.js' to run the application;
+4. Input and choose the answers/contents for each question;
+5. After completing all the questions, a sample README.md file will be generated. Open preview to check with your README file.
+
 ## URL Sources
 
 Feel free to check the application repository: [https://github.com/ywen26/README-Generator](https://github.com/ywen26/README-Generator)
 
-If you have any questions and ideas about this application, contact me at <yensonyu@gmail.com>
+If you have any questions and ideas about this application, contact me at: <yensonyu@gmail.com>
